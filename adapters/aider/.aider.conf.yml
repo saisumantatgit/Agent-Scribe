@@ -1,0 +1,10 @@
+# Agent-Scribe governance configuration for Aider
+read:
+  - prompts/logbook.md
+  - prompts/draft-aar.md
+  - prompts/draft-pir.md
+  - prompts/draft-adr.md
+  - templates/logbook-template.md
+  - templates/aar-template.md
+  - templates/pir-template.md
+  - templates/adr-template-madr-v4.md

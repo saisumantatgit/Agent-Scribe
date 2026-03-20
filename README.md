@@ -5,7 +5,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Commands](https://img.shields.io/badge/Commands-4-orange.svg)](#commands)
-[![CLIs](https://img.shields.io/badge/CLI_Support-6-purple.svg)](#supported-clis)
+[![CLIs](https://img.shields.io/badge/CLI_Support-5-purple.svg)](#supported-clis)
 
 ---
 
@@ -58,7 +58,6 @@ The installer detects your CLI tool and copies the right files:
 | **Codex** | Appends to `AGENTS.md` |
 | **Cursor** | `.cursor/rules/governance.md` |
 | **Aider** | Appends to `.aider.conf.yml` |
-| **Continue.dev** | Config with slash command definitions |
 | **Generic** | Raw prompt files you can paste into any LLM |
 
 ---
@@ -145,14 +144,14 @@ Not invented here — adapted from battle-tested sources:
 
 ## Part of the Agent Suite
 
-Agent-Scribe pairs with [Agent-PROVE](https://github.com/saisumantatgit/Agent-PROVE):
-
-| Tool | What It Does | Tagline |
-|------|-------------|---------|
-| **Agent-PROVE** | Makes agents think before they act | "Prove it or it fails." |
-| **Agent-Scribe** | Makes agents remember what they learned | "Nothing is lost." |
-
-PROVE validates your thinking. Scribe records your learning. Together: think rigorously, remember everything.
+| Tool | What It Does |
+|------|-------------|
+| [Agent-PROVE](https://github.com/saisumantatgit/Agent-PROVE) | Thinking validation |
+| [Agent-Trace](https://github.com/saisumantatgit/Agent-Trace) | Blast-radius mapping |
+| [Agent-Scribe](https://github.com/saisumantatgit/Agent-Scribe) | Governance documentation |
+| [Agent-Cite](https://github.com/saisumantatgit/Agent-Cite) | Evidence enforcement |
+| [Agent-Drift](https://github.com/saisumantatgit/Agent-Drift) | Drift detection |
+| [Agent-Litmus](https://github.com/saisumantatgit/Agent-Litmus) | Test quality validation |
 
 ---
 

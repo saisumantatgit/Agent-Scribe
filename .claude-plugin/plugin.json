@@ -1,0 +1,18 @@
+{
+  "name": "agent-scribe",
+  "description": "Agent-Scribe — Nothing is lost. Governance documentation for AI agent workflows. 4 commands + session-start hook for compound learning across sessions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sai Sumanth Battepati"
+  },
+  "homepage": "https://github.com/saisumantatgit/Agent-Scribe",
+  "license": "MIT",
+  "keywords": [
+    "claude-code-plugin",
+    "governance-documentation",
+    "logbook",
+    "after-action-review",
+    "post-incident-review",
+    "architecture-decision-record"
+  ]
+}

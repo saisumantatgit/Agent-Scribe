@@ -1,0 +1,20 @@
+{
+  "name": "agent-scribe",
+  "version": "1.0.0",
+  "description": "Agent-Scribe — Nothing is lost. Governance documentation for AI agent workflows (logbook, AAR, PIR, ADR)",
+  "keywords": [
+    "claude-code-plugin",
+    "governance-documentation",
+    "logbook",
+    "after-action-review",
+    "post-incident-review",
+    "architecture-decision-record",
+    "ai-agent-governance"
+  ],
+  "author": "Sai Sumanth Battepati",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saisumantatgit/Agent-Scribe"
+  }
+}

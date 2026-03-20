@@ -1,0 +1,12 @@
+{
+  "hooks": [
+    {
+      "type": "SessionStart",
+      "command": "echo '\ud83d\udcdc Agent-Scribe loaded. Commands: /logbook, /draft-aar, /draft-pir, /draft-adr'"
+    },
+    {
+      "type": "SessionStart",
+      "command": "bash hooks/load-context.sh"
+    }
+  ]
+}

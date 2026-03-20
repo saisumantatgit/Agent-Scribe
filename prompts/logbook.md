@@ -24,7 +24,7 @@ If the user says "just write it," infer from conversation context.
 1. Check if `docs/logbook/` exists. Create if not.
 2. Filename: `docs/logbook/YYYY-MM-DD.md`
 3. If file exists, append `## Session N` (increment). If not, create with header.
-4. Follow the template at `docs/logbook/TEMPLATE.md`
+4. Follow the template at `templates/logbook-template.md` (or `docs/logbook/TEMPLATE.md` if installed)
 
 ## After Writing
 

@@ -69,7 +69,7 @@ The installer detects your CLI tool and copies the right files:
 ```
 prompts/          ← LLM-agnostic core (single source of truth)
 templates/        ← Pure markdown document structures
-hooks/            ← Shell scripts (portable, no Python dependency)
+hooks/            ← Shell scripts (requires Python 3 for JSON output formatting)
 adapters/         ← CLI-specific thin wrappers
 install.sh        ← Auto-detect and install
 ```

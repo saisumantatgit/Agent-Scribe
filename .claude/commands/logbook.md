@@ -1,3 +1,4 @@
+<!-- Keep in sync with adapters/claude-code/commands/logbook.md -->
 ---
 description: Generate an Engineering Logbook entry for the current session. Run at session end.
 ---

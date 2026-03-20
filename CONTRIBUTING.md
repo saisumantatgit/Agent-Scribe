@@ -26,6 +26,8 @@ To add a new template:
 3. Update `install.sh` to detect your CLI and install the adapter
 4. Add an entry to the Platform Support table in `README.md`
 
+**Note:** Session-start automation (via `hooks.json` / `load-context.sh`) is currently supported for Claude Code only. Other CLIs require manual handoff loading at session start.
+
 ### Adapter checklist:
 - [ ] All 4 commands represented (logbook, draft-aar, draft-pir, draft-adr)
 - [ ] Session-start hook included (load-context equivalent)

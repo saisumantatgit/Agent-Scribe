@@ -1,3 +1,4 @@
+<!-- Keep in sync with adapters/claude-code/commands/draft-aar.md -->
 ---
 description: Draft an After Action Review for a completed milestone or significant event.
 ---

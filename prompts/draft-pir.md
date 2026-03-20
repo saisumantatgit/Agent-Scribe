@@ -11,6 +11,8 @@ You are drafting a Post-Incident Review (PIR). PIRs document what went wrong, wh
 
 ## Ask the User
 
+If the user says "just write it" or similar, infer all answers from conversation context and git history without asking.
+
 1. **What incident are we documenting? What failed?**
 2. **Severity?** P0 (Critical — trust-breaking), P1 (High — significant failure), P2 (Medium — partial failure, workaround exists), P3 (Low — caught before impact)
 3. **Five Whys**: Walk through the root cause chain together
@@ -21,7 +23,7 @@ You are drafting a Post-Incident Review (PIR). PIRs document what went wrong, wh
 
 1. Determine next PIR number from existing files in `docs/pir/`
 2. Save as `docs/pir/PIR-NNN-[short-title].md`
-3. Follow the template at `docs/pir/TEMPLATE.md`
+3. Follow the template at `templates/pir-template.md` (or `docs/pir/TEMPLATE.md` if installed)
 4. Include: Zone Check, Timeline, Five Whys, Blast Radius, Prompt Forensics, Remediation
 
 ## After Writing

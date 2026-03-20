@@ -1,3 +1,4 @@
+<!-- Keep in sync with .claude/commands/draft-adr.md -->
 ---
 description: Draft an Architecture Decision Record for a significant technical decision.
 ---

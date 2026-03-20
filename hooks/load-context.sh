@@ -18,7 +18,7 @@ fi
 
 FILENAME=$(basename "$LATEST")
 
-HANDOFF=$(sed -n '/### Handoff Notes/,/^---$/p' "$LATEST" 2>/dev/null | grep -v '^---$' | grep -v '^### Handoff Notes' | head -20)
+HANDOFF=$(sed -n '/### Handoff Notes/,/^##/p' "$LATEST" 2>/dev/null | grep -v '^##' | head -20)
 BLOCKERS=$(sed -n '/### Blockers/,/^###/p' "$LATEST" 2>/dev/null | grep -v '^###' | head -10)
 
 if [ -n "$HANDOFF" ] || [ -n "$BLOCKERS" ]; then
@@ -30,9 +30,9 @@ if [ -n "$HANDOFF" ] || [ -n "$BLOCKERS" ]; then
         CONTEXT="$CONTEXT\n\nOpen Blockers:\n$BLOCKERS"
     fi
 
-    python3 -c "
-import json
-context = '''$CONTEXT'''
+    CONTEXT="$CONTEXT" python3 -c "
+import json, os
+context = os.environ.get('CONTEXT', '')
 print(json.dumps({'additionalContext': context}))
 " 2>/dev/null
 fi

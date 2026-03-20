@@ -1,3 +1,4 @@
+<!-- Keep in sync with .claude/commands/draft-pir.md -->
 ---
 description: Draft a blameless Post-Incident Review. Auto-populates timeline from logs and git.
 ---

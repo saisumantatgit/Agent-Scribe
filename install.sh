@@ -43,6 +43,7 @@ mkdir -p docs/aar docs/pir docs/logbook docs/adr
 cp "$SCRIPT_DIR/templates/aar-template.md" docs/aar/TEMPLATE.md
 cp "$SCRIPT_DIR/templates/pir-template.md" docs/pir/TEMPLATE.md
 cp "$SCRIPT_DIR/templates/logbook-template.md" docs/logbook/TEMPLATE.md
+cp "$SCRIPT_DIR/templates/adr-template-madr-v4.md" docs/adr/TEMPLATE.md
 
 # Install CLI-specific adapter
 echo "Installing $CLI adapter..."

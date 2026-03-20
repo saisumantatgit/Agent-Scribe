@@ -12,6 +12,8 @@ You are drafting an After Action Review (AAR). AARs document what was planned, w
 
 ## Ask the User
 
+If the user says "just write it" or similar, infer all answers from conversation context and git history without asking.
+
 1. **Which milestone or phase is this AAR for?**
 2. **What was the objective?** (What was planned?)
 3. **What surprised you?** (Variance analysis)
@@ -23,8 +25,8 @@ You are drafting an After Action Review (AAR). AARs document what was planned, w
 
 1. Determine next AAR number from existing files in `docs/aar/`
 2. Save as `docs/aar/AAR-NNN-[short-title].md`
-3. Follow the template at `docs/aar/TEMPLATE.md`
-4. Include all sections: Zone Check, Variance Analysis, Token Economics, Lessons Learned (Sustain/Improve/Stop)
+3. Follow the template at `templates/aar-template.md` (or `docs/aar/TEMPLATE.md` if installed)
+4. Include all sections: Zone Check (measures three dimensions: Delivery — on track?, Quality — good enough?, Scope — controlled?; rate each as green/yellow/red), Variance Analysis, Token Economics, Lessons Learned (Sustain/Improve/Stop)
 
 ## After Writing
 
